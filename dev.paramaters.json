@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appserviceName": {
+            "value": "ctidevappplan"
+        },
+        "sk": {
+            "value": "F1"
+        },
+        "webname": {
+            "value": "ctidevwebapp"
+        },
+        "storageaccountname": {
+            "value": "ctidevstorage01"
+        },
+        "storagev2": {
+            "value": "storagev2"
+        },
+        "storagesku": {
+            "value": "Standard_LRS"
+        }
+    }
+}
